@@ -1,5 +1,6 @@
 package com.hencoder.hencoderpracticedraw6.practice;
 
+import android.animation.Animator;
 import android.content.Context;
 import android.graphics.Outline;
 import android.graphics.Path;
@@ -46,9 +47,14 @@ public class Practice01Translation extends RelativeLayout {
         }
 
         animateBt.setOnClickListener(new OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
             @Override
             public void onClick(final View v) {
                 // TODO 在这里处理点击事件，通过 View.animate().translationX/Y/Z() 来让 View 平移
+                imageView.animate().translationX(500).cancel();
+                imageView.animate().translationY(300).cancel();
+                imageView.animate().translationY(-300).cancel();
+                imageView.animate().translationZ(300);
             }
         });
     }
