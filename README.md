@@ -1,6 +1,8 @@
 ![](images/icon.png)
+完成
+===
 
-HenCoder 绘制 6 属性动画 练习项目 待完成
+HenCoder 绘制 6 属性动画 练习项目 
 ===
 
 ### 这是什么？
