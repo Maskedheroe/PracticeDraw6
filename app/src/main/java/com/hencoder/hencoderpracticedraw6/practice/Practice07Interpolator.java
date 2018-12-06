@@ -85,7 +85,7 @@ public class Practice07Interpolator extends LinearLayout {
                 imageView.animate()
                         .translationX(Utils.dpToPixel(150))
                         .setDuration(600)
-                        .setInterpolator(interpolators[spinner.getSelectedItemPosition()])
+                        .setInterpolator(interpolators[spinner.getSelectedItemPosition()]) //设置速度插值器
                         .withEndAction(new Runnable() {
                             @Override
                             public void run() {
