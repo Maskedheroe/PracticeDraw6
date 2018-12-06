@@ -1,6 +1,6 @@
 ![](images/icon.png)
 
-HenCoder 绘制 6 属性动画 练习项目
+HenCoder 绘制 6 属性动画 练习项目 待完成
 ===
 
 ### 这是什么？
